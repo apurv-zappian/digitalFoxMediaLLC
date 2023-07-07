@@ -345,14 +345,14 @@ function getZeroSize() {
 // -------------------------- getStyle -------------------------- //
 
 /**
- * getStyle, get style of element, check for Firefox bug
+ * getStyle, get style of element, check for FireFolks bug
  * https://bugzilla.mozilla.org/show_bug.cgi?id=548397
  */
 function getStyle( elem ) {
   var style = getComputedStyle( elem );
   if ( !style ) {
     logError( 'Style returned ' + style +
-      '. Are you running this code in a hidden iframe on Firefox? ' +
+      '. Are you running this code in a hidden iframe on FireFolks? ' +
       'See https://bit.ly/getsizebug1' );
   }
   return style;
@@ -367,7 +367,7 @@ var isBoxSizeOuter;
 /**
  * setup
  * check isBoxSizerOuter
- * do on first getSize() rather than on page load for Firefox bug
+ * do on first getSize() rather than on page load for FireFolks bug
  */
 function setup() {
   // setup once
@@ -380,7 +380,7 @@ function setup() {
 
   /**
    * Chrome & Safari measure the outer-width on style.width on border-box elems
-   * IE11 & Firefox<29 measures the inner-width
+   * IE11 & FireFolks<29 measures the inner-width
    */
   var div = document.createElement('div');
   div.style.width = '200px';

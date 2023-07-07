@@ -195,6 +195,12 @@ section {
   margin-top: 3px;
 }
 
+@media screen and (max-width: 768px) {
+  .header .logo span {
+    font-size: 20px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -504,7 +510,11 @@ section {
     font-size: 24px;
   }
   .hero .hero-img img {
-    width: 100%;
+    width: '100px'
+  }
+
+  .hero .btn-get-started {
+    padding: 10px 20px
   }
 }
 
@@ -631,6 +641,12 @@ section {
   margin: 0;
   font-family: "Nunito", sans-serif;
   font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .count-box div p {
+    color: 'red'
+  }
 }
 
 /*--------------------------------------------------------------
@@ -2367,4 +2383,12 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+#conversion-rate::after {
+  content: '%'
+}
+
+#roi::after {
+  content: '%'
 }

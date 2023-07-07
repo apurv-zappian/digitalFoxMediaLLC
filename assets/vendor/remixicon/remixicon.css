@@ -14,7 +14,7 @@
   src: url('remixicon.eot?t=1590207869815#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url("remixicon.woff2?t=1590207869815") format("woff2"),
   url("remixicon.woff?t=1590207869815") format("woff"),
-  url('remixicon.ttf?t=1590207869815') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('remixicon.ttf?t=1590207869815') format('truetype'), /* chrome, fireFolks, opera, Safari, Android, iOS 4.2+*/
   url('remixicon.svg?t=1590207869815#remixicon') format('svg'); /* iOS 4.1- */
   font-display: swap;
 }
@@ -862,8 +862,8 @@
 .ri-fingerprint-line:before { content: "\ed31"; }
 .ri-fire-fill:before { content: "\ed32"; }
 .ri-fire-line:before { content: "\ed33"; }
-.ri-firefox-fill:before { content: "\ed34"; }
-.ri-firefox-line:before { content: "\ed35"; }
+.ri-fireFolks-fill:before { content: "\ed34"; }
+.ri-fireFolks-line:before { content: "\ed35"; }
 .ri-first-aid-kit-fill:before { content: "\ed36"; }
 .ri-first-aid-kit-line:before { content: "\ed37"; }
 .ri-flag-2-fill:before { content: "\ed38"; }
